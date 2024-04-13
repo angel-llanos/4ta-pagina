@@ -1,0 +1,12 @@
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.fondo {
+    background-color: black;
+}
