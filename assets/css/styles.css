@@ -7,15 +7,47 @@
     margin-right: 10px;
 }
 
-.fondo {
-    background-color: black;
-}
-.bordes{
+.bordes {
     margin-left: 5%;
     margin-right: 2.5%;
 }
-.tamano{
+
+.tamano {
     height: 585px;
     width: 100vw;
     object-fit: cover;
+}
+
+.precentacion {
+    margin-top: 1rem;
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+}
+
+.borde {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.productos {
+    justify-content: space-around;
+}
+
+.pie-pagina {
+    margin-top: 150px;
+}
+
+.sesion {
+    padding: 3rem;
+    border-radius: 2rem;
 }
